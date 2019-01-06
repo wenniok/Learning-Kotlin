@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
     fun play(view: View){
         var result = findViewById<View>(R.id.result) as TextView
         var numberDrawn = Random().nextInt(11)
-        result.setText("Numero sorteado e: $numberDrawn")
+        result.setText("Number drawn is: $numberDrawn")
     }
 }
